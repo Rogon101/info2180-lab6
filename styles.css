@@ -1,0 +1,32 @@
+body{
+
+    font-family : Georgia, serif;
+    margin: 0px 50px 100px 50px;
+    justify-content: center;
+   
+}
+
+.header{
+
+    background : rgb(25, 12, 211);
+    color :rgb(255, 255, 255);
+    padding: 80px 10px;
+    border-bottom: rgb(0, 0, 0);
+
+}
+
+.container{
+
+    padding : 10px 40px;;
+    margin-top : 20px;
+    background-color: rgb(211, 211, 211);
+
+}
+
+#search{
+
+    border : rgb(0, 0, 0);
+    background : rgba(236, 10, 10, 0.815);
+    color : rgb(255, 255, 255);
+
+}

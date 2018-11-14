@@ -6,6 +6,7 @@
         <title>INFO2180 LAB6</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="script.js"></script>
+        <link href="styles.css" type="text/css" rel="stylesheet">
 
     </head>
 
@@ -15,10 +16,12 @@
 
             <p> Look up any word (ajax, definition, bar, html, css, javascript or php).</p>
 
-            <input type="text" id= "value" placeholder="Type here" >
+            <input type="text" name="q" id= "value" placeholder="Type here" >
                 
             <button type="button" id="search">Search</button>
-            
+
+            <button type="button" id="searchAll">Search All</button><hr>
+                
             <h3><strong>Results:</strong></h3><br>
                 
             <div id= "result"></div>
